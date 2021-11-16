@@ -4,6 +4,7 @@
 category wise(Docs, Photos, Audio, Videos, etc),
 extension wise(.mp3, .mp4, .mkv, etc),
 nested folder structure (Year->Month->Week), etc.
+
 STEP 1: IMPORTING MODULES OS AND SHUTIL
 
 STEP 2: CREATING USER DEFINED FUNCTIONS FOR THE ABOVE METHODS 
