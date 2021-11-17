@@ -6,6 +6,8 @@ extension wise(.mp3, .mp4, .mkv, etc),
 nested folder structure (Year->Month->Week), etc.
 
 STEP 1: IMPORTING MODULES OS AND SHUTIL
+        #import os module which provides a protable way of using operating system 
+        #import shutil module which helps in automating process of copying and removal of files or directory
 
 STEP 2: CREATING USER DEFINED FUNCTIONS FOR THE ABOVE METHODS 
          for eg: TO ORGANIZE BY FILE CATEGORY MAKE UDF LIKE category()
@@ -16,4 +18,6 @@ STEP 3:GET PATH INPUTS SOURCE AND DESTINATON
                           ->IF WE WANT TO GET ORGANIZED FILES IN THE SAME FOLDER THEN GIVE THE SAME PATH AS SOURCE PATH
                           
 STEP 4: GET CHOICE FROM USER BY WHICH METHOD WANT TO ORGANIZE 
-
+          IF CHOICE == 1 THEN CALL CATEGORY()
+          IF CHOICE == 2 THEN CALL EXT()
+STEP 5: IF ANY ERROR OCCURRED THE EXCEPT BLOCK WILL BE EXECUTED
