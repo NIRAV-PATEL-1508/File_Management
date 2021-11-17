@@ -1,9 +1,12 @@
 # File_Management
+
 #This problem is aimed to provide an automated solution for file management by exploring libraries, data structures, conditional and looping concepts.
+
 #BY USING THIS SCRIPT WE CAN ORGANIZE THE FILES BY FOLLOWING METHODS:
 category wise(Docs, Photos, Audio, Videos, etc),
 extension wise(.mp3, .mp4, .mkv, etc),
 nested folder structure (Year->Month->Week), etc.
+
 
 STEP 1: IMPORTING MODULES OS AND SHUTIL
         #import os module which provides a protable way of using operating system 
